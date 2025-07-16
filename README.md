@@ -1,3 +1,12 @@
-# Exercise Tracker
+# Exercise Tracker API
 
-This is the boilerplate for the Exercise Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker
+A RESTful API to track users and their exercise logs. Built with Node.js, Express, MongoDB (via Mongoose), and includes security, rate-limiting, and logging middleware.
+
+## Features
+
+- Create a new user
+- Add exercises for a user
+- Get all users
+- Get a user's exercise log with optional filtering (`from`, `to`, `limit`)
+- Secure with Helmet and rate limiter
+- Logs with Morgan
